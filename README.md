@@ -66,8 +66,11 @@ Fit and visualize a linear regression model over the scatter plot.
 
 # Tools and Libraries
 Pandas: Data manipulation and cleaning.
+
 Matplotlib: Data visualization.
+
 NumPy: Numerical computations.
+
 SciPy Stats: Statistical analysis.
 
 # Results

@@ -1,7 +1,7 @@
 # Overview
 This project analyzes clinical trial data from Pymaceuticals, Inc., a pharmaceutical company specializing in anti-cancer treatments. The study aims to evaluate the effectiveness of various drug regimens, including Pymaceuticals' key drug, Capomulin, in treating squamous cell carcinoma (SCC). The analysis focuses on comparing tumor growth metrics across treatments and generating comprehensive visual and statistical insights.
 
-Objectives
+# Objectives
 
 __1. Data Preparation:__
 Clean and merge the provided datasets.
@@ -29,17 +29,17 @@ Tables, figures, and summaries for a comprehensive technical report.
 
 # Methodology
 
-__1. Prepare the Data__
+__1. Prepare the Data:__
 Merge the mouse_metadata and study_results datasets into a unified DataFrame.
 Identify and remove duplicate data to ensure accuracy.
 Verify the number of unique mice in the cleaned dataset.
 
-__2. Generate Summary Statistics__
+__2. Generate Summary Statistics:__
 Group data by drug regimens and calculate:
   - Mean and median tumor volumes.
   - Variance, standard deviation, and SEM of tumor volumes.
 
-__3. Create Visualizations__
+__3. Create Visualizations:__
 Bar Charts:
 - Show the number of timepoints per drug regimen.
 - Created using both Pandas and Matplotlib.
@@ -52,15 +52,15 @@ Box Plot:
 - Display the distribution of final tumor volumes for Capomulin, Ramicane, Infubinol, and Ceftamin.
 - Highlight outliers for further analysis.
   
-__4. Quartile Analysis and Outlier Detection__
+__4. Quartile Analysis and Outlier Detection:__
 Calculate quartiles and IQR for the most promising drug regimens.
 Identify potential outliers and interpret their significance.
 
-__5. Line Plot and Scatter Plot__
+__5. Line Plot and Scatter Plot:__
 Generate a line plot for tumor volume changes over time for a selected mouse treated with Capomulin.
 Create a scatter plot showing the relationship between mouse weight and tumor volume for all mice on Capomulin.
 
-__6. Correlation and Regression__
+__6. Correlation and Regression:__
 Calculate the correlation coefficient between mouse weight and tumor volume for Capomulin.
 Fit and visualize a linear regression model over the scatter plot.
 

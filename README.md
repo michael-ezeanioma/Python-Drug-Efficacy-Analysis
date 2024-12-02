@@ -40,6 +40,7 @@ Group data by drug regimens and calculate:
   - Variance, standard deviation, and SEM of tumor volumes.
 
 __3. Create Visualizations:__
+
 Bar Charts:
 - Show the number of timepoints per drug regimen.
 - Created using both Pandas and Matplotlib.
